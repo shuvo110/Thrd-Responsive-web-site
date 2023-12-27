@@ -1,0 +1,224 @@
+/* google found link code */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Rethink+Sans:ital,wght@1,400;1,500&family=Work+Sans:ital,wght@0,400;1,200&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Work Sans;
+}
+
+
+/* code suru ehan theke */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 50px 8px 90px;
+    background-color: cadetblue;
+   
+}
+.menu-btn{
+    font-size: 25px;
+    color: wheat;
+    cursor: pointer;
+    display: none;
+}
+#checkbox{
+    display: none;
+}
+nav .golo{
+    font-size: 31px;
+}
+nav ul {
+    display: flex;    
+}
+nav ul li{
+    margin: 0px 15px;
+    list-style: none;
+}
+nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: wheat;
+    font-family:sans-serif;
+    padding:6px 13px;
+    border-radius: 8px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover, nav ul li a.Active{
+    background-color: #aa1daa81;
+}
+
+/*  RESPONSIVE CODE SURU EKHAN TKHEKE  Nav code ber*/
+@media only Screen and  (max-width:980px){
+    nav ul{
+        position: fixed;
+        background-color: rgb(46, 26, 26);
+        top:50px;
+        height: 100vh;
+        width: 100%;
+        right: 100%;
+        flex-direction: column;
+        text-align:center;
+        padding-top:25px;
+        transition: all 0.9s ease;
+    }
+    nav ul li{
+        margin: 20px 0px;
+    }
+    nav ul li a{
+        font-size: 27px;
+    }
+    nav ul li a:hover, nav ul li a.Active{
+        background:none;
+        color: coral;
+    }
+    .menu-btn{
+        display: block;
+    }
+    #checkbox:checked ~ ul{
+        right: 0%;
+    }
+    #checkbox:checked ~ .menu-btn i::before{
+        content:"\f00d";
+    }
+    
+}
+
+
+/* header setion code suru ekhn tkheke suru */
+header{
+    background-image: url(img/header\ one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:100vh;
+}
+
+/*Section one code suru ekhn tkheke Our Services  */
+#fast-section{
+    background-color: rgb(34, 13, 13);
+}
+#fast-section h2{
+    text-align: center;
+    font-size:30px;
+    font-style: italic;
+    letter-spacing:8px;
+    padding:50px 0px 10px 0px;
+    color: honeydew;
+}
+#fast-section .mul-div{
+    padding: 30px 0px 70px 0px;
+    margin:auto;
+    width:1000px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:40px 40px;
+    text-align: center;
+    
+}
+#fast-section .mul-div .one{
+    border:3px solid rgb(18, 228, 109);
+    padding: 5px 9px;
+    border-radius: 3px;
+    box-shadow:5px 4px 5px rgba(247, 244, 244, 0.616);
+    background-color: wheat;
+    height: 260px;
+}
+#fast-section .mul-div .one i{
+    font-size:30px;
+    padding: 15px 0px 5px 0px;
+}
+#fast-section .mul-div .one h3{
+    padding: 10px 0px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing:5px;
+}
+#fast-section .mul-div .one p{
+    font-weight: bold;
+}
+/* media Responsive code suru ekhn tkheke section one code */
+@media only screen and (max-width:688px){
+    #fast-section .mul-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:50px;
+        width: 100%;
+    }
+    .photo-text{
+        display:block;
+        margin-right:150px;
+        margin-left:150px;
+    }
+
+    /* .photo-text .photo img{
+        width: 100%;
+    } */
+
+}
+
+@media only screen and (min-width:689px) and (max-width:999px){
+    #fast-section .mul-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:60px;
+        width: 100%;
+    }
+    .photo-text{
+        display:block;
+        margin-right:150px;
+        margin-left:150px;
+    }
+    /* .photo-text .photo img{
+        width: 100%;
+    } */
+}
+
+
+/* ismat Ariya code suru ekhn tkheke */
+#prent-div{
+    background-color: rgba(68, 73, 58, 0.226);
+    padding-bottom: 20px;
+}
+#prent-div h2{
+    text-align: center;
+    font-size:33px;
+    text-transform: uppercase;
+    padding: 60px 0px 50px 0px;
+}
+.photo-text{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-right:150px;
+    margin-left:150px;
+}
+ .photo-text> .preya h3{
+   padding:10px 0px 50px 0px ;
+}
+.photo-text .preya p{
+    font-size:18px;
+    font-weight: 600px;
+    line-height:30px;
+}
+#prent-div .photo-text .preya .botton{
+    display:inline-block;
+    padding: 5px 18px;
+    margin: 20px 0px;
+    border: 2px solid rgb(253, 154, 4);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgb(117, 237, 241);
+    transition: 0.5s;
+}
+#prent-div .photo-text .preya .botton:hover{
+    background-color: rgba(162, 69, 248, 0.719);
+    color: black;
+}
