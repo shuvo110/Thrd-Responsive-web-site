@@ -143,27 +143,6 @@ header{
 #fast-section .mul-div .one p{
     font-weight: bold;
 }
-/* media Responsive code suru ekhn tkheke section one code */
-@media only screen and (max-width:688px){
-    #fast-section .mul-div{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-        grid-gap:50px;
-        width: 100%;
-    }
-
-
-}
-
-@media only screen and (min-width:689px) and (max-width:999px){
-    #fast-section .mul-div{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-        grid-gap:60px;
-        width: 100%;
-    }
-}
-
 
 /* ismat Ariya code suru ekhn tkheke */
 #prent-div{
@@ -175,6 +154,7 @@ header{
     font-size:33px;
     text-transform: uppercase;
     padding: 60px 0px 50px 0px;
+    color:rgb(59, 212, 92);
 }
 .photo-text{
     display:flex;
@@ -206,3 +186,45 @@ header{
     background-color: rgba(162, 69, 248, 0.719);
     color: black;
 }
+
+/* media Responsive code suru ekhn tkheke section one code */
+@media only screen and (max-width:688px){
+    #fast-section .mul-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:50px;
+        width: 100%;
+    }
+    .photo-text{
+        display:block;
+        margin-right:10px;
+        margin-left:10px;
+    }
+    .photo-img img{
+        width: 100%;
+
+    }
+
+}
+
+@media only screen and (min-width:689px) and (max-width:999px){
+    #fast-section .mul-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:60px;
+        width: 100%;
+        height: 100%;
+    }
+    .photo-text{
+        display:block;
+        margin-right:30px;
+        margin-left:30px;
+    }
+    .photo-img img{
+        width: 100%;
+        height: 100%;
+        
+    }
+}
+
+
