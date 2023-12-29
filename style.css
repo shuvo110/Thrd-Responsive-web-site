@@ -115,7 +115,7 @@ header{
 #fast-section .mul-div{
     padding: 30px 0px 70px 0px;
     margin:auto;
-    width:1000px;
+    width:1100px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap:40px 40px;
@@ -144,7 +144,7 @@ header{
     font-weight: bold;
 }
 
-/* ismat Ariya code suru ekhn tkheke */
+/*2rd section  ismat Ariya code suru ekhn tkheke */
 #prent-div{
     background-color: rgba(68, 73, 58, 0.226);
     padding-bottom: 20px;
@@ -187,6 +187,193 @@ header{
     color: black;
 }
 
+
+/* 3rd section code suru ekna tkheke */
+#Therd{
+    background-image: url(img/therd-one.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:70px 0px;
+}
+#Therd h2{
+    text-align: center;
+    color: wheat;
+    margin-bottom: 20px;
+}
+#text-div{
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    margin-left:150px;
+    margin-right:150px;
+}
+
+#text-div .text p{
+    color: wheat;
+    margin: 20px 0px;
+}
+#text-div .text ul li{
+    color: white;
+    margin:19px 0px;
+}
+#text-div .pren{
+    width:200%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 35px 10px;
+}
+#text-div .pren .one{
+    border: 2px solid red;
+    border-radius: 10px;
+    padding: 18px 12px;
+    text-align: center;
+    margin-left:50px;
+    background-color: cadetblue;
+
+}
+ /* 4rd section code suru ekhnn tkheke */
+.for-section{
+    background-color: rgba(59, 153, 240, 0.699);
+    padding:80px 0px;
+}
+#img-text{
+    display:flex;
+    margin-left:200px;
+    margin-right: 100px;
+    gap: 50px;
+}
+#img-text .img-pera .photo {
+    width:400px;
+    height:250px;
+    padding: 0px 30px;
+}
+#img-text .img-pera .photo img{
+    width: 100%;
+}
+
+#img-text .img-pera p{
+    margin: 10px 0px;
+    font-size:18px;
+    line-height: 29px;
+    text-align: justify;
+}
+#img-text .img-pera h2{
+    font-size: 26px;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow:2px 2px 1px rgba(255, 0, 0, 0.521);
+    border-bottom: 2px solid red;
+    padding-bottom: 10px;
+}
+
+.img-pera a{
+    text-decoration: none;
+    border-radius: 10px;
+    color: rgba(219, 192, 192, 0.822);
+    font-size:20px;
+    margin: 20px 10px;
+    padding: 6px 20px;
+    background-color: rgba(0, 0, 0, 0.712);
+    transition: 0.5s;
+    display: inline-block;
+
+}
+.img-pera a:hover{
+    background-color: blueviolet;
+}
+
+/* 5rd from section code suru */
+.from-section{
+    background:linear-gradient(rgba(22, 16, 16, 0.644),rgba(34, 25, 56, 0.288)), url(img/from-img.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding:150px 0px;
+
+}
+form{
+    max-width: 50%;
+    border: 2px solid red;
+    margin: 0px auto;
+    padding:50px 40px;
+    background-color: rgba(0, 0, 0, 0.514);
+    color: rgb(243, 241, 236);
+    border-radius: 10px;
+    text-align: center;
+    backdrop-filter: blur(5px);
+}
+form p{
+    margin:20px 0px;
+}
+form .input-box{
+    display: block;
+    margin: 25px 0px;
+    width: 100%;
+    height:30px;
+    border: none;
+    background: none;
+    outline: none;
+    color: white;
+    border-bottom: 3px solid rgba(165, 94, 236, 0.699);
+    font-size: 20px;
+}
+form .input-box::placeholder{
+    color: rgba(179, 173, 187, 0.877);
+}
+form .submit-btn{
+    padding: 4px 15px;
+    font-size:20px;
+    /* border:none; */
+    border-radius: 10px;
+    background-color: darkgray;
+    transition: 0.5s;
+    margin:30px 20px 0px 0px;
+    display:inline-block;
+    cursor: pointer;
+
+}
+form .submit-btn:hover{
+    background-color: cornflowerblue;
+}
+
+/* 6rd section code suru  */
+#six-section{
+    background-color: rgba(41, 37, 37, 0.774);
+    color: white;
+    padding: 30px 0px;
+}
+#prent-six-div{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:50px 40px;
+    margin-left: 180px;
+    margin-right: 180px;
+    padding: 50px 0px;
+}
+#prent-six-div .fast-div{
+    line-height:2.5em;
+}
+#prent-six-div .icon-div{
+    padding:8px 15px 20px 15px;
+    text-align: justify;
+    border: 2px solid red;
+}
+#prent-six-div .icon-div:nth-child(2){
+    border: 3px solid rgb(18, 228, 109);
+}
+#prent-six-div .icon-div h4{
+    padding-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-size:19px;
+}
+#prent-six-div .icon-div i{
+    font-size:25px;
+    padding: 0px 10px 0px 10px;
+}
+
 /* media Responsive code suru ekhn tkheke section one code */
 @media only screen and (max-width:688px){
     #fast-section .mul-div{
@@ -195,6 +382,7 @@ header{
         grid-gap:50px;
         width: 100%;
     }
+    /* 2 section code */
     .photo-text{
         display:block;
         margin-right:10px;
@@ -202,12 +390,79 @@ header{
     }
     .photo-img img{
         width: 100%;
+        height: 100%;
 
     }
+    .photo-text .preya p{
+        font-size:28px;
+        font-weight:800px;
+        line-height:50px;
+    }
+    .photo-text> .preya h3{
+        padding:10px 0px 50px 0px ;
+        font-size:35px;
+     }
+
+    /* 3rd code suru */
+    #text-div{
+        /* padding: 30px 20px; */
+        display: block;
+        align-items: center;
+        margin-left:10px;
+        margin-right:10px;
+    }
+    #text-div .pren{
+        width:105%;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:50px 0px;
+        margin-top:50px;
+        padding-right:50px;
+    }
+    .text p{
+        font-size: 30px;
+        display:inline-block;
+        margin-bottom:150px;
+       
+    }
+    .text ul li{
+        font-size: 26px;
+    }
+    .pren .one p{
+        font-size: 26px;
+    }
+    /* 3rd code sesh */
+
+    /* 4rd section code suru ekhn tkheke */
+    #img-text{
+        display:block;
+        margin-left:20px;
+        margin-right:20px;
+    }
+
+    /* 5rd from section code suru */
+    form{
+        max-width:90%;
+        padding:10px 20px;
+        background-color: rgba(0, 0, 0, 0.514);
+    }
+
+    /* 6rd section code suru */
+    #prent-six-div{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap:20px 10px;
+        margin-left:20px;
+        margin-right:20px;
+        padding: 50px 0px;
+    }
+    .fast-div{
+        text-align: center;
+    }
+
 
 }
-
-@media only screen and (min-width:689px) and (max-width:999px){
+@media only screen and (min-width:689px) and (max-width:1099px){
     #fast-section .mul-div{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -215,16 +470,64 @@ header{
         width: 100%;
         height: 100%;
     }
+    /* 2 section code suru */
     .photo-text{
         display:block;
         margin-right:30px;
         margin-left:30px;
     }
-    .photo-img img{
-        width: 100%;
-        height: 100%;
-        
+ 
+    /* 3rd section code suru*/
+    #text-div{
+        padding: 30px 20px;
+        display: block;
+        align-items: center;
+        margin-left:50px;
+        margin-right:50px;
     }
+    #text-div .pren{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 35px 10px;
+        margin-top:50px;
+    }
+    .text p{
+        font-size: 30px;
+        display:inline-block;
+        margin-bottom:150px;
+       
+    }
+    .text ul li{
+        font-size: 26px;
+    }
+    .pren .one p{
+        font-size: 26px;
+    }
+    
+    /* 4rd section code suru ekhn tkheke */
+    #img-text{
+        display:flex;
+        margin-left:70px;
+        margin-right:70px;
+        gap:50px;
+    }
+
+    /* 5rd from section code suru */
+    form{
+        max-width:30%;
+        padding:30px 30px;
+        background-color: rgba(0, 0, 0, 0.514);
+    }
+
+    /* 6rd section code suru*/
+    #prent-six-div{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap:30px 50px;
+        margin-left:100px;
+        margin-right:100px;
+        /* padding: 50px 0px; */
+    }
+
 }
-
-
